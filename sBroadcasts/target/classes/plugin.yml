@@ -1,0 +1,13 @@
+name: sBroadcasts
+version: 1.0.0
+main: com.github.firstplugin.sbroadcast
+api-version: 1.16
+author: Mozart#7825 [Discord]
+description: Simple levelling system to spice up your server
+
+commands:
+  broadcast:
+    aliases: bc
+    permission: broadcast.bc
+    permission-message: §cYou cannot use this command
+    usage: §e/broadcast <message>
